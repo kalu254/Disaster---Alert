@@ -28,3 +28,15 @@ The system will consist of the following microservices:
 - **Prometheus and Grafana**: For monitoring and alerting.
 
 ## Services
+
+### 1. Gateway Service
+
+- **Responsibilities**:
+  - Route incoming requests to appropriate services.
+  - Perform request validation and logging.
+
+### 2. Discovery Service
+
+- **Responsibilities**:
+  - Service registration and discovery.
+  - Provide information about available services and instances.
