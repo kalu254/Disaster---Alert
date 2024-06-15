@@ -1,15 +1,15 @@
-# Distributed Alarm Backend Application Design Document
+# Disaster Alarm Backend Application Design Document
 
 ## Overview
 
-This document outlines the design for a distributed alarm backend application using Spring Boot microservices. The application will handle alarm creation, notification, and management in a scalable and resilient manner.
+This document outlines the design for a disaster alarm backend application using Spring Boot microservices. The application will handle disaster alarm creation, notification, and management in a scalable and resilient manner.
 
 ## Architecture
 
 The system will consist of the following microservices:
 
-1. **Alarm Service**: Handles creation, updating, and deletion of alarms.
-2. **Notification Service**: Manages notifications for alarms (e.g., sending emails, SMS).
+1. **Alarm Service**: Handles creation, updating, and deletion of disaster alarms.
+2. **Notification Service**: Manages notifications for disaster alarms (e.g., sending emails, SMS).
 3. **User Service**: Manages user information and preferences.
 4. **Gateway Service**: Acts as an entry point to route requests to appropriate services.
 5. **Discovery Service**: Service registry to enable service discovery (e.g., Eureka).
@@ -26,3 +26,5 @@ The system will consist of the following microservices:
 - **Hystrix**: For circuit breaker pattern.
 - **RabbitMQ/Kafka**: For message brokering (optional, for asynchronous communication).
 - **Prometheus and Grafana**: For monitoring and alerting.
+
+## Services
