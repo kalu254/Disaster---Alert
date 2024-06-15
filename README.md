@@ -18,7 +18,7 @@ The system will consist of the following microservices:
 
 ### Technologies
 
-- **Language**: Kotlin.
+- **Kotlin**: Coding Language (Better than Java).
 - **Spring Boot**: For building microservices.
 - **Spring Cloud**: For cloud-native architecture components.
 - **Eureka**: For service discovery.
