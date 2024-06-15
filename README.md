@@ -21,10 +21,10 @@ The system will consist of the following microservices:
 - **Spring Boot**: For building microservices.
 - **Spring Cloud**: For cloud-native architecture components.
 - **Eureka**: For service discovery.
-- **Zuul or Spring Cloud Gateway**: For API gateway.
+- **Spring Cloud Gateway**: For API gateway.
 - **Spring Cloud Config**: For centralized configuration management.
 - **Hystrix**: For circuit breaker pattern.
-- **RabbitMQ/Kafka**: For message brokering (optional, for asynchronous communication).
+- **Kafka**: For message brokering (optional, for asynchronous communication).
 - **Prometheus and Grafana**: For monitoring and alerting.
 
 ## Services
