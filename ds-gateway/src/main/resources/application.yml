@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ds-gateway
+  profiles:
+    active: dev
+
+server:
+  port: 8080
