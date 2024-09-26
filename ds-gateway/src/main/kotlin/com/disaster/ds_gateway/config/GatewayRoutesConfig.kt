@@ -18,12 +18,12 @@ class GatewayRoutesConfig {
     // this function creates for us a custom route locator that will
     // forward our request and responses to the correct address points.
     @Bean
-    fun   disaterAppCustomRouteLocator( builder : RouteLocatorBuilder) : RouteLocator {
+    fun disaterAppCustomRouteLocator(builder: RouteLocatorBuilder): RouteLocator {
         return builder.routes {
             // declare other routes as Such (I'M USING KOTLIN)
             route("user_svc_route") {
                 this@route.path("/api/v1/user/**")
-                        .uri("lb://DS-USER-SERVICE")
+                    .uri("lb://DS-USER-SERVICE")
             }
             // example Ends here
         }
